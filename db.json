@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 5,
+      "firstName": "Mavis",
+      "lastName": "Schultz",
+      "Age": 38,
+      "gender": "male",
+      "email": "kmeus4@upenn.edu"
+    },
+    {
+      "id": 8,
+      "firstName": "Ewell",
+      "lastName": "Mueller",
+      "Age": 29,
+      "gender": "male",
+      "email": "ggude7@chron.com"
+    },
+    {
+      "firstName": "Demetrius",
+      "lastName": "shamel",
+      "Age": "22",
+      "gender": "male",
+      "email": "nloiterton8@aol.com",
+      "id": 9
+    },
+    {
+      "firstName": "omar",
+      "lastName": "Price",
+      "Age": "25",
+      "gender": "male",
+      "email": "omar9@jalbum.net",
+      "id": 10
+    },
+    {
+      "firstName": "Omar",
+      "lastName": "Nabil",
+      "Age": "33",
+      "gender": "male",
+      "email": "omar33@gmail.com",
+      "id": 12
+    },
+    {
+      "firstName": "esraa",
+      "lastName": "hussein",
+      "Age": "22",
+      "gender": "female",
+      "email": "esraa@gmail.com",
+      "id": 13
+    }
+  ]
+}

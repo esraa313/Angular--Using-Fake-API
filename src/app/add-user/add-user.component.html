@@ -1,0 +1,24 @@
+<form class="mt-3 container">
+   
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">firstName</label>
+        <input type="text" class="form-control" #firstName>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">lastName</label>
+        <input type="text" class="form-control" #lastName>
+      </div> <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Age</label>
+        <input type="text" class="form-control" #Age>
+      </div> <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">gender</label>
+        <input type="text" class="form-control" #gender>
+      </div> <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">email</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" #email>
+      </div>
+    <button type="submit" class="btn btn-primary" routerLink="/users"
+    (click)="Add(firstName.value,lastName.value,Age.value,gender.value,email.value)"
+    >Submit</button>
+
+  </form>

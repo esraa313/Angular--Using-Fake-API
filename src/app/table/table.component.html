@@ -1,0 +1,31 @@
+
+<table class="table container mt-5">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">firstName</th>
+        <th scope="col">lastName</th>
+        <th scope="col">age</th>
+        <th scope="col">gender</th>
+        <th scope="col">email</th>
+        <th scope="col" class="ps-5">Action</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider" >
+      <tr *ngFor="let u of usersData">
+        <th>{{u.id}}</th>
+        <td>{{u.firstName}}</td>
+        <td>{{u.lastName}}</td>
+        <td>{{u.Age}}</td>
+        <td>{{u.gender}}</td>
+        <td>{{u.email}}</td>
+        <td>
+            <button type="button" class="btn btn-light me-4" routerLink="/users/{{u.id}}" > Details</button>
+            <button type="button" class="btn btn-warning me-4" routerLink="/Update/{{u.id}}" (click)="update(u.id)">Update</button>
+            <button type="button" class="btn btn-danger" routerLink="/users" (click)="delete(u.id)">Delete</button>
+
+        </td>
+      </tr>
+     
+    </tbody>
+  </table>
